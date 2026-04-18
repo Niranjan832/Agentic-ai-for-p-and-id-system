@@ -1,0 +1,628 @@
+{
+  "symbols": [
+    {
+      "tag": "Feed Tank",
+      "type": "Vessel",
+      "name": "Feed Tank",
+      "confidence": 0.95,
+      "box_2d": {
+        "ymin": 345,
+        "xmin": 25,
+        "ymax": 445,
+        "xmax": 60
+      }
+    },
+    {
+      "tag": "V-1",
+      "type": "Valve",
+      "name": "Gate Valve",
+      "confidence": 0.98,
+      "box_2d": {
+        "ymin": 455,
+        "xmin": 30,
+        "ymax": 505,
+        "xmax": 55
+      }
+    },
+    {
+      "tag": "Unknown",
+      "type": "Pump",
+      "name": "Centrifugal Pump",
+      "confidence": 0.92,
+      "box_2d": {
+        "ymin": 545,
+        "xmin": 30,
+        "ymax": 585,
+        "xmax": 60
+      }
+    },
+    {
+      "tag": "FT",
+      "type": "Instrument",
+      "name": "Flow Transmitter",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 470,
+        "xmin": 90,
+        "ymax": 520,
+        "xmax": 120
+      }
+    },
+    {
+      "tag": "FC",
+      "type": "Instrument",
+      "name": "Flow Controller",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 405,
+        "xmin": 110,
+        "ymax": 455,
+        "xmax": 140
+      }
+    },
+    {
+      "tag": "I/P",
+      "type": "Instrument",
+      "name": "Current-to-Pressure Converter",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 460,
+        "xmin": 135,
+        "ymax": 510,
+        "xmax": 165
+      }
+    },
+    {
+      "tag": "FCV",
+      "type": "Valve",
+      "name": "Flow Control Valve",
+      "confidence": 0.98,
+      "box_2d": {
+        "ymin": 535,
+        "xmin": 140,
+        "ymax": 565,
+        "xmax": 170
+      }
+    },
+    {
+      "tag": "F-105",
+      "type": "Heater",
+      "name": "Furnace",
+      "confidence": 0.95,
+      "box_2d": {
+        "ymin": 445,
+        "xmin": 170,
+        "ymax": 645,
+        "xmax": 235
+      }
+    },
+    {
+      "tag": "TT",
+      "type": "Instrument",
+      "name": "Temperature Transmitter",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 470,
+        "xmin": 215,
+        "ymax": 520,
+        "xmax": 245
+      }
+    },
+    {
+      "tag": "TC",
+      "type": "Instrument",
+      "name": "Temperature Controller",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 470,
+        "xmin": 260,
+        "ymax": 520,
+        "xmax": 290
+      }
+    },
+    {
+      "tag": "I/P",
+      "type": "Instrument",
+      "name": "Current-to-Pressure Converter",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 535,
+        "xmin": 260,
+        "ymax": 585,
+        "xmax": 290
+      }
+    },
+    {
+      "tag": "Unknown",
+      "type": "Valve",
+      "name": "Gate Valve",
+      "confidence": 0.9,
+      "box_2d": {
+        "ymin": 675,
+        "xmin": 260,
+        "ymax": 710,
+        "xmax": 295
+      }
+    },
+    {
+      "tag": "C-105",
+      "type": "Vessel",
+      "name": "Distillation Column",
+      "confidence": 0.95,
+      "box_2d": {
+        "ymin": 300,
+        "xmin": 405,
+        "ymax": 705,
+        "xmax": 455
+      }
+    },
+    {
+      "tag": "LT",
+      "type": "Instrument",
+      "name": "Level Transmitter",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 625,
+        "xmin": 380,
+        "ymax": 675,
+        "xmax": 410
+      }
+    },
+    {
+      "tag": "LC",
+      "type": "Instrument",
+      "name": "Level Controller",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 685,
+        "xmin": 380,
+        "ymax": 735,
+        "xmax": 410
+      }
+    },
+    {
+      "tag": "I/P",
+      "type": "Instrument",
+      "name": "Current-to-Pressure Converter",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 745,
+        "xmin": 380,
+        "ymax": 795,
+        "xmax": 410
+      }
+    },
+    {
+      "tag": "TE",
+      "type": "Instrument",
+      "name": "Temperature Element",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 625,
+        "xmin": 455,
+        "ymax": 675,
+        "xmax": 485
+      }
+    },
+    {
+      "tag": "TT",
+      "type": "Instrument",
+      "name": "Temperature Transmitter",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 625,
+        "xmin": 490,
+        "ymax": 675,
+        "xmax": 520
+      }
+    },
+    {
+      "tag": "TC",
+      "type": "Instrument",
+      "name": "Temperature Controller",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 625,
+        "xmin": 525,
+        "ymax": 675,
+        "xmax": 555
+      }
+    },
+    {
+      "tag": "I/P",
+      "type": "Instrument",
+      "name": "Current-to-Pressure Converter",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 625,
+        "xmin": 560,
+        "ymax": 675,
+        "xmax": 590
+      }
+    },
+    {
+      "tag": "Unknown",
+      "type": "Valve",
+      "name": "Control Valve",
+      "confidence": 0.95,
+      "box_2d": {
+        "ymin": 705,
+        "xmin": 590,
+        "ymax": 735,
+        "xmax": 630
+      }
+    },
+    {
+      "tag": "V-4",
+      "type": "Valve",
+      "name": "Gate Valve",
+      "confidence": 0.98,
+      "box_2d": {
+        "ymin": 465,
+        "xmin": 485,
+        "ymax": 500,
+        "xmax": 520
+      }
+    },
+    {
+      "tag": "V-5",
+      "type": "Valve",
+      "name": "Gate Valve",
+      "confidence": 0.98,
+      "box_2d": {
+        "ymin": 515,
+        "xmin": 485,
+        "ymax": 550,
+        "xmax": 520
+      }
+    },
+    {
+      "tag": "V-6",
+      "type": "Valve",
+      "name": "Gate Valve",
+      "confidence": 0.98,
+      "box_2d": {
+        "ymin": 565,
+        "xmin": 485,
+        "ymax": 600,
+        "xmax": 520
+      }
+    },
+    {
+      "tag": "Unknown",
+      "type": "HeatExchanger",
+      "name": "Shell and Tube Heat Exchanger",
+      "confidence": 0.92,
+      "box_2d": {
+        "ymin": 235,
+        "xmin": 500,
+        "ymax": 300,
+        "xmax": 540
+      }
+    },
+    {
+      "tag": "V-2",
+      "type": "Valve",
+      "name": "Gate Valve",
+      "confidence": 0.98,
+      "box_2d": {
+        "ymin": 145,
+        "xmin": 450,
+        "ymax": 200,
+        "xmax": 475
+      }
+    },
+    {
+      "tag": "V-3",
+      "type": "Valve",
+      "name": "Gate Valve",
+      "confidence": 0.98,
+      "box_2d": {
+        "ymin": 145,
+        "xmin": 515,
+        "ymax": 200,
+        "xmax": 540
+      }
+    },
+    {
+      "tag": "P-12",
+      "type": "Pump",
+      "name": "Centrifugal Pump",
+      "confidence": 0.98,
+      "box_2d": {
+        "ymin": 85,
+        "xmin": 405,
+        "ymax": 130,
+        "xmax": 440
+      }
+    },
+    {
+      "tag": "CT-105",
+      "type": "Vessel",
+      "name": "Cooling Tower",
+      "confidence": 0.95,
+      "box_2d": {
+        "ymin": 15,
+        "xmin": 285,
+        "ymax": 115,
+        "xmax": 340
+      }
+    },
+    {
+      "tag": "D-105",
+      "type": "Vessel",
+      "name": "Horizontal Drum",
+      "confidence": 0.95,
+      "box_2d": {
+        "ymin": 285,
+        "xmin": 565,
+        "ymax": 340,
+        "xmax": 640
+      }
+    },
+    {
+      "tag": "PT",
+      "type": "Instrument",
+      "name": "Pressure Transmitter",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 245,
+        "xmin": 580,
+        "ymax": 295,
+        "xmax": 610
+      }
+    },
+    {
+      "tag": "I/P",
+      "type": "Instrument",
+      "name": "Current-to-Pressure Converter",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 15,
+        "xmin": 580,
+        "ymax": 65,
+        "xmax": 610
+      }
+    },
+    {
+      "tag": "PC",
+      "type": "Instrument",
+      "name": "Pressure Controller",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 15,
+        "xmin": 625,
+        "ymax": 65,
+        "xmax": 655
+      }
+    },
+    {
+      "tag": "Unknown",
+      "type": "Valve",
+      "name": "Control Valve",
+      "confidence": 0.95,
+      "box_2d": {
+        "ymin": 205,
+        "xmin": 625,
+        "ymax": 245,
+        "xmax": 665
+      }
+    },
+    {
+      "tag": "P-13",
+      "type": "Pump",
+      "name": "Centrifugal Pump",
+      "confidence": 0.98,
+      "box_2d": {
+        "ymin": 140,
+        "xmin": 705,
+        "ymax": 195,
+        "xmax": 755
+      }
+    },
+    {
+      "tag": "LT",
+      "type": "Instrument",
+      "name": "Level Transmitter",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 285,
+        "xmin": 645,
+        "ymax": 335,
+        "xmax": 675
+      }
+    },
+    {
+      "tag": "LC",
+      "type": "Instrument",
+      "name": "Level Controller",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 285,
+        "xmin": 685,
+        "ymax": 335,
+        "xmax": 715
+      }
+    },
+    {
+      "tag": "I/P",
+      "type": "Instrument",
+      "name": "Current-to-Pressure Converter",
+      "confidence": 0.99,
+      "box_2d": {
+        "ymin": 285,
+        "xmin": 725,
+        "ymax": 335,
+        "xmax": 755
+      }
+    },
+    {
+      "tag": "Unknown",
+      "type": "Valve",
+      "name": "Control Valve",
+      "confidence": 0.95,
+      "box_2d": {
+        "ymin": 355,
+        "xmin": 765,
+        "ymax": 395,
+        "xmax": 805
+      }
+    },
+    {
+      "tag": "P-14",
+      "type": "Pump",
+      "name": "Centrifugal Pump",
+      "confidence": 0.98,
+      "box_2d": {
+        "ymin": 375,
+        "xmin": 655,
+        "ymax": 415,
+        "xmax": 690
+      }
+    },
+    {
+      "tag": "Rx-105",
+      "type": "Vessel",
+      "name": "Stirred Tank Reactor",
+      "confidence": 0.95,
+      "box_2d": {
+        "ymin": 465,
+        "xmin": 565,
+        "ymax": 605,
+        "xmax": 630
+      }
+    },
+    {
+      "tag": "P-15",
+      "type": "Pump",
+      "name": "Centrifugal Pump",
+      "confidence": 0.98,
+      "box_2d": {
+        "ymin": 940,
+        "xmin": 675,
+        "ymax": 985,
+        "xmax": 710
+      }
+    },
+    {
+      "tag": "Rx-105",
+      "type": "Vessel",
+      "name": "Tubular Reactor",
+      "confidence": 0.95,
+      "box_2d": {
+        "ymin": 515,
+        "xmin": 765,
+        "ymax": 885,
+        "xmax": 815
+      }
+    },
+    {
+      "tag": "B-105",
+      "type": "Heater",
+      "name": "Reboiler",
+      "confidence": 0.95,
+      "box_2d": {
+        "ymin": 880,
+        "xmin": 575,
+        "ymax": 980,
+        "xmax": 655
+      }
+    },
+    {
+      "tag": "P-11",
+      "type": "Pump",
+      "name": "Centrifugal Pump",
+      "confidence": 0.98,
+      "box_2d": {
+        "ymin": 875,
+        "xmin": 320,
+        "ymax": 915,
+        "xmax": 355
+      }
+    },
+    {
+      "tag": "V-7",
+      "type": "Valve",
+      "name": "Gate Valve",
+      "confidence": 0.98,
+      "box_2d": {
+        "ymin": 875,
+        "xmin": 375,
+        "ymax": 910,
+        "xmax": 410
+      }
+    },
+    {
+      "tag": "Tk-16",
+      "type": "Vessel",
+      "name": "Storage Tank",
+      "confidence": 0.95,
+      "box_2d": {
+        "ymin": 835,
+        "xmin": 170,
+        "ymax": 930,
+        "xmax": 205
+      }
+    },
+    {
+      "tag": "Tk-12",
+      "type": "Vessel",
+      "name": "Storage Tank",
+      "confidence": 0.95,
+      "box_2d": {
+        "ymin": 295,
+        "xmin": 910,
+        "ymax": 395,
+        "xmax": 960
+      }
+    },
+    {
+      "tag": "Tk-14",
+      "type": "Vessel",
+      "name": "Storage Tank",
+      "confidence": 0.95,
+      "box_2d": {
+        "ymin": 525,
+        "xmin": 885,
+        "ymax": 655,
+        "xmax": 940
+      }
+    },
+    {
+      "tag": "Unknown",
+      "type": "Valve",
+      "name": "Control Valve",
+      "confidence": 0.95,
+      "box_2d": {
+        "ymin": 865,
+        "xmin": 275,
+        "ymax": 905,
+        "xmax": 315
+      }
+    },
+    {
+      "tag": "Unknown",
+      "type": "Valve",
+      "name": "Gate Valve",
+      "confidence": 0.9,
+      "box_2d": {
+        "ymin": 405,
+        "xmin": 520,
+        "ymax": 440,
+        "xmax": 555
+      }
+    },
+    {
+      "tag": "Unknown",
+      "type": "HeatExchanger",
+      "name": "Shell and Tube Heat Exchanger",
+      "confidence": 0.92,
+      "box_2d": {
+        "ymin": 710,
+        "xmin": 460,
+        "ymax": 755,
+        "xmax": 490
+      }
+    }
+  ]
+}
